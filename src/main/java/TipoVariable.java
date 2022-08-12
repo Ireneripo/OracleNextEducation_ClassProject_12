@@ -8,7 +8,13 @@ public class TipoVariable {
         edad = 47;
         System.out.println(edad);
 
-        edad = 46 + 88;
+        edad = 46 + 18;
         System.out.println("Mi edad es " + edad);
+
+        double salario = 1250.56;
+        System.out.println(salario);
+
+        double salarioMitad = salario / 2;
+        System.out.println(salarioMitad);
     }
 }
