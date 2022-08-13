@@ -6,8 +6,10 @@ public class EjemploCondicionales2 {
         boolean esPareja = cantidadPersonas > 1;
         System.out.println(esPareja);
 
-        if (edad >= 18 && esPareja) {
-            System.out.println("Puede ingresar");
+        boolean puedeEntrar = edad >= 18 && esPareja;
+
+        if (puedeEntrar) {
+            System.out.println("Sea bienvenido");
         } else {
             System.out.println("Usted no está permitido a" +
                     " entrar");
